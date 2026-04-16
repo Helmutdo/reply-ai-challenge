@@ -1,0 +1,52 @@
+{
+  "fraud_count": 64,
+  "total_count": 522,
+  "avg_fraud_amount": 128.72671875,
+  "fraud_hours": {
+    "14": 5,
+    "12": 4,
+    "8": 4,
+    "9": 2,
+    "2": 3,
+    "11": 10,
+    "21": 5,
+    "16": 3,
+    "7": 3,
+    "10": 1,
+    "20": 4,
+    "22": 1,
+    "17": 3,
+    "15": 1,
+    "18": 4,
+    "19": 5,
+    "13": 2,
+    "1": 4
+  },
+  "fraud_types": {
+    "e-commerce": 55,
+    "withdrawal": 8,
+    "in-person payment": 1
+  },
+  "fraud_recipients": [
+    "SHPRB44898",
+    "RETRB55157",
+    "COMRB39809",
+    "ENTSR71727",
+    "PAYCL92396",
+    "MKTBR25408",
+    "RENT75951",
+    "RETMR56580",
+    "MKTHM29884",
+    "RETNX18127",
+    "MKTSW66369",
+    "MKTSW37100",
+    "PAYNV92614",
+    "COMRB36517",
+    "TRDSV19149",
+    "MKTSH55838",
+    "ORGLN36934",
+    "SHPMR89689",
+    "PAYDN65923",
+    "SHPSW42075"
+  ]
+}
