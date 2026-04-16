@@ -11,17 +11,21 @@ Multi-agent AI system designed to detect fraudulent financial transactions using
 
 ## Setup
 
-The virtual environment is already configured. To activate it:
+The virtual environment is in the root directory. To activate it:
 
 ```bash
+# If you are in the root directory:
 source .venv/bin/activate
+
+# If you are in the software directory:
+source ../.venv/bin/activate
 ```
 
 ## How to Run
 
 1. **Add Data**: Copy the folder containing the data you want to analyze (e.g., `Brave New World - train`) into the `dataset/` directory.
    
-2. **Execute**: Run the program from the `software` directory, pointing to the dataset path:
+2. **Execute**: Run the program from the `software` directory:
 
    ```bash
    cd software
@@ -29,9 +33,9 @@ source .venv/bin/activate
    ```
 
 3. **Check Results**: After execution, check the `output/` directory for:
-   - `output_[dataset_name].txt`: A detailed English report with reasoning for each flagged fraud.
-   - `fraud_ids_[dataset_name].txt`: A simple list of flagged transaction IDs.
-   - `patterns_[dataset_name].json`: Learned patterns to improve detection in subsequent levels.
+   - `output_[dataset_name].txt`: **Official Submission File** (ASCII, transaction IDs only).
+   - `report_[dataset_name].txt`: Detailed English report with reasoning for review.
+   - `patterns_[dataset_name].json`: Learned patterns for the next levels.
 
 ## Requirements
 

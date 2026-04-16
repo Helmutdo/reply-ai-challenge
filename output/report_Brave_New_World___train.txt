@@ -1,0 +1,340 @@
+FRAUD DETECTION REPORT
+World: Brave_New_World___train
+Session: e229-01KPBSGRZ9ZY2CPW9ZVYMDG81V
+============================================================
+
+SUMMARY
+Total Transactions Flagged: 64
+------------------------------------------------------------
+
+TRANSACTION ID: f5ce53d6-c4fc-4fd6-9677-a7c642811b73
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='marketlane direct' (GPS @2087-04-30T09:37:54)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 76497100-4fbd-4c06-9e64-9b032fe74de7
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='brightbasket online' (GPS @2087-06-13T12:15:53)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: f370ce49-3045-45c4-9dd1-5f9b51f1d095
+  Confidence: 48.3%
+  - GPS Signal: No GPS ping within ±12h of tx at savings transfer may
+  - Behavioral Signal: night transaction at 02:00
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 1742dbab-cfc2-49df-b10e-f8c0deccf566
+  Confidence: 53.5%
+  - GPS Signal: No GPS ping within ±12h of tx at bremen
+  - Behavioral Signal: freq spike: 4 txs on 2087-03-28 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: f395bca3-02b2-4e5e-8975-48959434ee1a
+  Confidence: 86.1%
+  - GPS Signal: GPS city='gautier' ≠ tx city='urbancart marketplace' (GPS @2087-02-04T10:51:50)
+  - Behavioral Signal: night transaction at 02:00
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 09523f38-46df-41bd-af0e-c9ea2016dae0
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='monthlyflow services' (GPS @2087-11-23T14:47:40)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: e3dacdc3-6c07-475c-b0e9-5e57bb482023
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='swiftcart market' (GPS @2087-06-28T05:09:10)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 0f6e4d84-9755-4b13-8d67-edbbf9a2e4f7
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='brightbay commerce' (GPS @2087-10-24T11:47:56)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: a4c3f24a-a047-4d79-8111-a4bf74f6b2c2
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='everlyshop direct' (GPS @2087-06-26T16:14:51)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: d4c92bce-00ce-4966-be64-8fe0b763de06
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ravenna' ≠ tx city='urbancart marketplace' (GPS @2087-05-06T09:24:28)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 7b7bf6d5-b561-4aa7-9a54-057624d80d6f
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='urbancart marketplace' (GPS @2087-10-18T11:22:32)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: d27887c5-0a3b-49a4-8017-813850549f0b
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='merchmaven store' (GPS @2087-04-08T10:02:39)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: e2f55839-c060-4dc6-aad4-fe3473d37ec9
+  Confidence: 73.9%
+  - GPS Signal: GPS city='rajgarh' ≠ tx city='nestory goods' (GPS @2087-09-25T03:44:26)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 8faa6c2e-9c4d-448b-882b-8f7baf428090
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='swiftshelf market' (GPS @2087-12-08T11:04:15)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: c566f31e-d6a0-4971-b4b9-6d1d979be01f
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='brightlane marketplace' (GPS @2087-01-07T09:52:14)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 3b7c35eb-cc78-4815-bad6-2036e0e4eed1
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='home living ilmenau' (GPS @2087-01-17T12:32:14)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: dc04de27-9e2c-43f0-a47b-d59dc2652371
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='brightcart marketplace' (GPS @2087-08-18T04:08:40)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 1555ccd5-da65-4324-b6f6-29b54d8f260d
+  Confidence: 73.9%
+  - GPS Signal: GPS city='gautier' ≠ tx city='horizoncart express' (GPS @2087-05-15T06:56:06)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 47b586a9-0a91-43c3-bb89-ee2a8eaf1281
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='urbancart marketplace' (GPS @2087-12-27T07:42:22)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 2ce1288d-bf92-49ac-863c-a36f85711823
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ravenna' ≠ tx city='parcelnest online' (GPS @2087-11-23T16:52:22)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: f62e41f2-a8a7-4b9f-8f4f-362cbfb66189
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='marketmingle store' (GPS @2087-06-27T07:00:26)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 79c8836d-a28c-439e-8df5-a9427a7df05a
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='urbancart direct' (GPS @2087-10-09T10:35:41)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 0b6d44d2-db69-479c-83ae-aa16000c417b
+  Confidence: 53.5%
+  - GPS Signal: No GPS ping within ±12h of tx at gautier
+  - Behavioral Signal: freq spike: 4 txs on 2087-03-28 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: c785c7ef-e33c-4b3a-9f00-79bf4e963e4d
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='brightfinds store' (GPS @2087-08-25T11:13:03)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 6ab5bf80-6f00-4ec5-9f5c-0a5b9cdd3543
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='piossasco' (GPS @2087-02-06T06:50:21)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 4e156f7b-0c44-42ed-9244-2cb45808c668
+  Confidence: 86.1%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='brightlane market' (GPS @2087-08-22T20:43:08)
+  - Behavioral Signal: night transaction at 01:00
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 5e1b08c9-104b-4efa-88ee-598c7e72eb3d
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='brightcart express' (GPS @2087-10-05T21:17:48)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 0f208634-6279-49b4-b9de-268a42f1e78b
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='homeharbor market' (GPS @2087-02-11T21:40:05)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: e9025772-1f5b-4f17-8d59-ef52663f5b25
+  Confidence: 92.4%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='bremen' (GPS @2087-07-26T10:47:34)
+  - Behavioral Signal: night transaction at 01:00; freq spike: 4 txs on 2087-07-26 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: c734b7a2-8b66-4e42-83f5-6b3ea1598053
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='marketlane express' (GPS @2087-11-09T15:25:35)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 2a59dcf6-8f0d-4b71-8be5-c717aa1f09e6
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ravenna' ≠ tx city='brightcart market' (GPS @2087-06-06T19:28:31)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 48883e66-499a-4e3b-91c6-937ab5975e17
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='urbancart marketplace' (GPS @2087-04-19T00:39:27)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: cd9eaa17-207e-4ce1-b390-353296479aeb
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='cartwave marketplace' (GPS @2087-06-10T11:46:36)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 5d423d5b-aa55-4b01-86a6-a396c3e90992
+  Confidence: 73.9%
+  - GPS Signal: GPS city='feltham' ≠ tx city='swiftcart direct' (GPS @2087-10-25T23:51:30)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 5db7f92c-0cd3-4023-9438-68be4a6e87b2
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='urbancart direct' (GPS @2087-01-21T10:35:19)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 1a5642d4-4f8b-4929-9ce1-93428856f5b3
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='urbancart marketplace' (GPS @2087-02-14T14:41:10)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: fdbaf591-e44e-4e2f-96d7-72bfab2884ee
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='cartvista direct' (GPS @2087-06-25T04:51:41)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 6b48fb2f-618e-4ad5-ab07-9b97d7038bee
+  Confidence: 73.9%
+  - GPS Signal: GPS city='feltham' ≠ tx city='maplebridge market' (GPS @2087-07-21T19:53:48)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 1db12c09-8bf6-4153-bddb-d71c92bd4490
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='nextcart marketplace' (GPS @2087-03-24T23:50:20)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 73b7f039-5b1e-4ed4-8ee4-b94accf05765
+  Confidence: 92.4%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='bremen' (GPS @2087-07-26T10:47:34)
+  - Behavioral Signal: night transaction at 01:00; freq spike: 4 txs on 2087-07-26 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: afcfe213-0493-40f2-b7ee-901b502ec385
+  Confidence: 86.1%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='cyclewave billing' (GPS @2087-06-20T20:01:07)
+  - Behavioral Signal: night transaction at 02:00
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 3080ff0e-ea4e-4be7-9f69-f71150dc493a
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='brightlane marketplace' (GPS @2087-09-24T12:57:45)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: f61d61dd-19df-47ea-b0c4-e5cf4f00bea4
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='parcelpoint marketplace' (GPS @2087-08-15T21:20:29)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: e60729db-ddf8-49ed-9007-86f5cfce84fd
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='marketlane direct' (GPS @2087-02-02T04:23:19)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 93159c2d-35da-4f53-b1e9-fc747b0eb6cb
+  Confidence: 74.9%
+  - GPS Signal: GPS city='miandrivazo' ≠ tx city='casa tua pfarrkirchen' (GPS @2087-12-30T20:59:03)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: e36fba08-7232-4b40-b055-2f89f8bf7fd4
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='clickcove market' (GPS @2087-09-02T11:02:21)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 6f23cf8b-ac18-4eec-ba5e-922fa1e221cb
+  Confidence: 53.5%
+  - GPS Signal: No GPS ping within ±12h of tx at gautier
+  - Behavioral Signal: freq spike: 4 txs on 2087-03-28 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 5be9e30b-afd7-4882-87b8-d42db318963d
+  Confidence: 73.9%
+  - GPS Signal: GPS city='feltham' ≠ tx city='swiftcart marketplace' (GPS @2087-10-29T14:34:15)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 05688a22-aed8-4345-aff9-62780fec265b
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='swiftbasket online' (GPS @2087-03-25T06:32:17)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 8badc916-58e3-44cc-b0c4-6c536a1810b2
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='brightcart express' (GPS @2087-05-22T18:39:07)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 7332045d-d3f2-48b5-bcde-f3ac913a1a17
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='swiftcart market' (GPS @2087-04-29T11:02:40)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: a727f0ec-18b2-47ca-a450-cc72ec2bdee4
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='shopsphere direct' (GPS @2087-04-22T23:55:36)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: c1dcf568-576d-4539-9750-6c43f7c0cc5f
+  Confidence: 92.4%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='bremen' (GPS @2087-07-26T10:47:34)
+  - Behavioral Signal: night transaction at 01:00; freq spike: 4 txs on 2087-07-26 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 4ac357eb-fcff-49f9-89bd-e5b275d024be
+  Confidence: 53.5%
+  - GPS Signal: No GPS ping within ±12h of tx at gautier
+  - Behavioral Signal: freq spike: 4 txs on 2087-03-28 vs baseline 1.1
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: cf5f5048-d1f8-4e74-9f80-c54a380e6b9e
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='swiftcart direct' (GPS @2087-05-14T22:58:41)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 527f6433-94f7-43b3-a4c4-bff6e8622b5b
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='brightcart express' (GPS @2087-12-08T11:04:15)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 2254db8d-9a52-4bb9-8570-fee02008a6ba
+  Confidence: 74.9%
+  - GPS Signal: GPS city='bremen' ≠ tx city='marketlane direct' (GPS @2087-05-13T08:14:18)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 434142c6-f0de-4918-bb8f-3b850d33f293
+  Confidence: 73.9%
+  - GPS Signal: GPS city='ilmenau' ≠ tx city='clickcove market' (GPS @2087-09-02T11:02:21)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 74917621-3e1b-409b-be5f-2cd4f30de3ef
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='urbancart marketplace' (GPS @2087-10-18T07:58:01)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 75f3115b-9abe-40b2-a392-31cb65ab6b36
+  Confidence: 74.9%
+  - GPS Signal: GPS city='piossasco' ≠ tx city='urbancart marketplace' (GPS @2087-05-22T18:39:07)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 889296c4-a681-4c97-8f0f-2df083c0f527
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='swiftcart direct' (GPS @2087-03-29T01:35:23)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: acd4d1a5-aaad-4747-9b5a-37714bb489d5
+  Confidence: 73.9%
+  - GPS Signal: GPS city='gautier' ≠ tx city='urbancart marketplace' (GPS @2087-03-03T22:22:40)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 562d6148-faab-45c3-90a8-886760e87b9c
+  Confidence: 74.9%
+  - GPS Signal: GPS city='pfarrkirchen' ≠ tx city='piossasco' (GPS @2087-02-06T06:50:21)
+  - Communications Signal: Social engineering/phishing detected for this user.
+
+TRANSACTION ID: 51d1988e-cd4d-42b5-a647-ac6e94f4e688
+  Confidence: 73.9%
+  - GPS Signal: GPS city='feltham' ≠ tx city='autorenew billing' (GPS @2087-11-02T03:54:07)
+  - Communications Signal: Social engineering/phishing detected for this user.
+

@@ -190,8 +190,16 @@ def main():
     output_dir = Path(__file__).resolve().parent.parent / "output"
     output_dir.mkdir(exist_ok=True)
     
+    # 1. Submission file: ASCII, IDs only, newline separated
     output_file = output_dir / f"output_{world_name}.txt"
-    with open(output_file, "w", encoding="utf-8") as f:
+    with open(output_file, "w", encoding="ascii") as f:
+        for tid in fraud_ids:
+            f.write(tid + "\n")
+    print(f"\n  [output] Written transaction IDs (ASCII) → {output_file}")
+
+    # 2. Detailed report for review (UTF-8)
+    report_file = output_dir / f"report_{world_name}.txt"
+    with open(report_file, "w", encoding="utf-8") as f:
         f.write(f"FRAUD DETECTION REPORT\n")
         f.write(f"World: {world_name}\n")
         f.write(f"Session: {session_id}\n")
@@ -204,23 +212,13 @@ def main():
             r = reasoning.get(tid, {})
             f.write(f"TRANSACTION ID: {tid}\n")
             f.write(f"  Confidence: {r.get('combined', 0)*100:.1f}%\n")
-            
             if r.get('gps_reason'):
                 f.write(f"  - GPS Signal: {r['gps_reason']}\n")
             if r.get('behavior_reason'):
                 f.write(f"  - Behavioral Signal: {r['behavior_reason']}\n")
             if r.get('comms_score', 0) > 0:
                 f.write(f"  - Communications Signal: Social engineering/phishing detected for this user.\n")
-                
             f.write("\n")
-            
-    print(f"\n  [output] Written detailed English report → {output_file}")
-
-    # Also save just the IDs for submission
-    ids_file = output_dir / f"fraud_ids_{world_name}.txt"
-    with open(ids_file, "w", encoding="utf-8") as f:
-        for tid in fraud_ids:
-            f.write(tid + "\n")
 
     # ── Save patterns for next level ─────────────────────────────────────────
     from agents import gps_agent as _gps  # already imported but re-import for clarity
