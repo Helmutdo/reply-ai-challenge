@@ -187,11 +187,40 @@ def main():
     )
 
     # ── Output ────────────────────────────────────────────────────────────────
-    output_file = f"output_{world_name}.txt"
+    output_dir = Path(__file__).resolve().parent.parent / "output"
+    output_dir.mkdir(exist_ok=True)
+    
+    output_file = output_dir / f"output_{world_name}.txt"
     with open(output_file, "w", encoding="utf-8") as f:
+        f.write(f"FRAUD DETECTION REPORT\n")
+        f.write(f"World: {world_name}\n")
+        f.write(f"Session: {session_id}\n")
+        f.write("="*60 + "\n\n")
+        f.write(f"SUMMARY\n")
+        f.write(f"Total Transactions Flagged: {len(fraud_ids)}\n")
+        f.write("-" * 60 + "\n\n")
+        
+        for tid in fraud_ids:
+            r = reasoning.get(tid, {})
+            f.write(f"TRANSACTION ID: {tid}\n")
+            f.write(f"  Confidence: {r.get('combined', 0)*100:.1f}%\n")
+            
+            if r.get('gps_reason'):
+                f.write(f"  - GPS Signal: {r['gps_reason']}\n")
+            if r.get('behavior_reason'):
+                f.write(f"  - Behavioral Signal: {r['behavior_reason']}\n")
+            if r.get('comms_score', 0) > 0:
+                f.write(f"  - Communications Signal: Social engineering/phishing detected for this user.\n")
+                
+            f.write("\n")
+            
+    print(f"\n  [output] Written detailed English report → {output_file}")
+
+    # Also save just the IDs for submission
+    ids_file = output_dir / f"fraud_ids_{world_name}.txt"
+    with open(ids_file, "w", encoding="utf-8") as f:
         for tid in fraud_ids:
             f.write(tid + "\n")
-    print(f"\n  [output] Written {len(fraud_ids)} fraud IDs → {output_file}")
 
     # ── Save patterns for next level ─────────────────────────────────────────
     from agents import gps_agent as _gps  # already imported but re-import for clarity
@@ -203,8 +232,8 @@ def main():
     with open(str(_Path(world_path) / "transactions.csv"), newline="", encoding="utf-8") as f:
         transactions = list(_csv.DictReader(f))
 
-    patterns_file = f"patterns_{world_name}.json"
-    saved = _mem.save_patterns(fraud_ids, transactions, patterns_file)
+    patterns_file = output_dir / f"patterns_{world_name}.json"
+    saved = _mem.save_patterns(fraud_ids, transactions, str(patterns_file))
     print(f"  [memory] Patterns saved → {patterns_file} "
           f"(fraud_count={saved['fraud_count']})")
 

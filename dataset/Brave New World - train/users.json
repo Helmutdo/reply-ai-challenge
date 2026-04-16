@@ -1,0 +1,100 @@
+[
+  {
+    "first_name": "Jim",
+    "last_name": "Ortiz",
+    "birth_year": 2001,
+    "salary": 35200,
+    "job": "Retired",
+    "iban": "US47O8560397578096463876194",
+    "residence": {
+      "city": "Gautier",
+      "lat": "30.4106",
+      "lng": "-88.6568"
+    },
+    "description": "Jim Ortiz is an 86-year-old retired homemaker living in Gautier, Mississippi; his modest pension of $35,200 a year keeps a quiet household by the Gulf where he spends his days tending a small garden, mending fixtures, and being the steady neighbor people drop by for advice, and he still gets out three times a year—sometimes for a short drive to nearby towns and diners, sometimes for long hauls that take him to places as small as a thousand inhabitants or as sprawling as tens of millions—comfortable enough with everyday tech to pay bills and video-call family but not immune to the occasional flashy online lure, he prefers porch conversations and the slow rhythm of coastal weather to the rush of the city."
+  },
+  {
+    "first_name": "Silvestro",
+    "last_name": "Valentino",
+    "birth_year": 2012,
+    "salary": 48900,
+    "job": "Retired",
+    "iban": "IT10L9520192660655169390809",
+    "residence": {
+      "city": "Piossasco",
+      "lat": "44.9906",
+      "lng": "7.4637"
+    },
+    "description": "Silvestro Valentino è un pensionato casalingo di Piossasco, nato nel 2012, che nel 2087 vive una routine semplice e ben organizzata: a 75 anni si occupa della casa, cucina, cura il piccolo orto sul balcone e prepara i pranzi per la famiglia quando i figli e i nipoti passano; la sua pensione, circa 48.900 all'anno, gli garantisce una certa sicurezza economica e lui gestisce le spese con attenzione — il suo conto è registrato con l'IBAN IT10L9520192660655169390809 — ma non è impermeabile alle insidie digitali: usa lo smartphone per messaggi e pagamenti e tende a fidarsi dei messaggi che riceve, con una probabilità intermedia di cadere in trappole di phishing, perciò i parenti lo avvertono di stare attento alle richieste sospette. Esce volentieri al mercato del paese, si ferma al bar con gli amici e una volta all'anno si concede un viaggio; può essere un weekend vicino o una lunga trasferta fino a 15.000 chilometri per vedere qualcuno lontano, preferendo comunque luoghi semplici e persone vere più che le mete turistiche rumorose."
+  },
+  {
+    "first_name": "Vitus",
+    "last_name": "Fechner",
+    "birth_year": 2042,
+    "salary": 86600,
+    "job": "Senior Consultant",
+    "iban": "DE62U9486200442637789135342",
+    "residence": {
+      "city": "Bremen",
+      "lat": "53.0758",
+      "lng": "8.8072"
+    },
+    "description": "Vitus Fechner ist 45 Jahre alt (geboren 2042) und arbeitet in Bremen als Senior Consultant; in der technisch geprägten, vernetzten Welt des Jahres 2087 verdient er rund 86.600 € im Jahr und pendelt beruflich so, dass er im Schnitt drei Reisen pro Jahr unternimmt – von kurzen Einsätzen in kleineren Gemeinden bis zu langen, interkontinentalen Mandaten von bis zu 15.000 km, die ihn sowohl in überschaubare Orte als auch in Megastädte führen; sein Arbeitsalltag besteht aus hybriden Meetings, Vor-Ort-Terminen und Projektkoordination, er wirkt pragmatisch und belastbar, hat sich in Bremen ein stabiles Leben aufgebaut und bewegt sich souverän in lokalen Netzwerken, bleibt aber digital verwundbar: seine Neigung, auf Phishing-Mails hereinzufallen, liegt bei etwa 51 %."
+  },
+  {
+    "first_name": "Uberto",
+    "last_name": "Iannelli",
+    "birth_year": 2003,
+    "salary": 31400,
+    "job": "Retired",
+    "iban": "IT30K9711948403425025862011",
+    "residence": {
+      "city": "Ravenna",
+      "lat": "44.4161",
+      "lng": "12.2017"
+    },
+    "description": "Uberto Iannelli, nato nel 2003, ha 84 anni e vive a Ravenna come pensionato che si dedica alla casa: le sue giornate scorrono tra il mercato del centro dove sceglie ancora il pesce e le verdure, il caffè con i vicini davanti ai mosaici antichi e piccoli lavori di cucina e manutenzione domestica che lo tengono occupato; la sua pensione si aggira intorno ai 31.400 euro e gliene basta per mantenere una vita tranquilla e due viaggi l'anno, a volte verso paesini adriatici a poche decine di chilometri, altre volte fin oltre l'Europa, fino a tremila o quindicimila chilometri, perché ama tanto i borghi raccolti quanto le grandi città rumorose; sul fronte tecnologico è pratico ma non sempre prudente: preferisce chiedere ai nipoti quando arriva una mail sospetta, e in questo modo riesce a godersi la curiosità per il mondo senza correre troppi rischi."
+  },
+  {
+    "first_name": "Tania",
+    "last_name": "Weitzel",
+    "birth_year": 2059,
+    "salary": 39800,
+    "job": "Digital Creator",
+    "iban": "DE52R2345866103953164007851",
+    "residence": {
+      "city": "Pfarrkirchen",
+      "lat": "48.4167",
+      "lng": "12.9167"
+    },
+    "description": "Tania Weitzel, geboren 2059 und damit 28 Jahre alt, lebt und arbeitet als freiberufliche Digital Creator in Pfarrkirchen; sie verdient etwa 39.800 Euro im Jahr, produziert für Marken und eigene Kanäle kurzformatige Videos und visuelle Kampagnen und organisiert Projekte remote, dabei lässt sie sich oft von der dörflichen Ruhe und den regionalen Motiven inspirieren, reist aber im Schnitt zweimal jährlich – von Wochenendtrips in die Nachbarstädte bis zu weiter entfernten, bis zu 15.000 km entfernten Destinationen, wobei ihre Ziele von kleinen Orten bis hin zu riesigen Metropolen reichen – und hält so ihre Arbeit vielseitig, ihr Leben bewusst geplant und finanziell sparsam, ohne die Hoffnung auf neue, große Aufträge zu verlieren."
+  },
+  {
+    "first_name": "Pauline",
+    "last_name": "Jones",
+    "birth_year": 2000,
+    "salary": 41000,
+    "job": "Retired",
+    "iban": "GB68S3857283695776049775751",
+    "residence": {
+      "city": "Feltham",
+      "lat": "51.4496",
+      "lng": "-0.4089"
+    },
+    "description": "Pauline Jones, born in 2000, is an 87-year-old retired homemaker who lives in Feltham and moves through her days with the quiet routines of suburban life—a small, well-tended garden, a tea at the kitchen table and the weekly turn at the community centre—living on an annual income of about £41,000 and managing her affairs through a UK bank account; she still travels about four times a year, sometimes to sleepy towns a few hours away and sometimes on long-haul trips that land her in vast, crowded cities, and though she's warm and practical in person she can be a little too trusting online, occasionally clicking dubious links until a friend talks her through better habits, so neighbours know her as the reliable volunteer who brings back thoughtful souvenirs from wherever she wanders."
+  },
+  {
+    "first_name": "Gerhild",
+    "last_name": "Caspar",
+    "birth_year": 2048,
+    "salary": 33600,
+    "job": "Office Clerk",
+    "iban": "DE35G0316479870123653193377",
+    "residence": {
+      "city": "Ilmenau",
+      "lat": "50.6839",
+      "lng": "10.9194"
+    },
+    "description": "Gerhild Caspar, 2048 geboren und damit 39 Jahre alt, lebt in Ilmenau und arbeitet als Büroangestellte; mit einem Jahresgehalt von rund 33.600 € führt sie ein solides, unaufgeregtes Leben in der kleinen Universitätsstadt, die sie wegen ihrer kurzen Wege und der ruhigen Atmosphäre schätzt. Im Büro ist sie routiniert und pflichtbewusst, organisiert den Alltag mit einem Sinn für Ordnung und sorgt dafür, dass Rechnungen und Zahlungen zuverlässig über ihr deutsches Konto (IBAN beginnt mit DE35) laufen. Etwa drei Reisen pro Jahr gehören zu ihren Gewohnheiten: mal ein Wochenendausflug in eine Kleinstadt, mal eine Fernreise bis zu 15.000 km, wobei ihre Ziele von Orten mit rund 1.000 Einwohnern bis zu Metropolen mit bis zu 45 Millionen reichen. Digital ist sie pragmatisch, aber nicht übermäßig misstrauisch — statistisch würde sie in knapp der Hälfte der Fälle auf Phishing-Links klicken, eine Schwäche, die sie gelegentlich zur Vorsicht veranlasst. Insgesamt wirkt Gerhild bodenständig und verlässlich, jemand, der kleine Freuden im Alltag findet und zugleich offen genug ist, immer wieder neue Orte kennenzulernen."
+  }
+]
