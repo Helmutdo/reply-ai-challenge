@@ -1,5 +1,6 @@
 # Reply AI Challenge - Fraud Detection System
 
+Under 6 hours - Development challenge 
 Multi-agent AI system designed to detect fraudulent financial transactions using GPS, behavioral patterns, and communication analysis (LLM).
 
 ## Project Structure
